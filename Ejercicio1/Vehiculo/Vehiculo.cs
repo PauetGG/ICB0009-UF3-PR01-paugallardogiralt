@@ -7,8 +7,8 @@ public class Vehiculo
 {
     public int Id {get; set;}
     public int Pos {get;set;}
-    public int Velocidad {get; set;}
     public string Direccion {get; set;} // "Norte" o "Sur" 
+    public int Velocidad {get; set;}
     public bool Acabado {get;set;}
     public bool Parado {get; set;}
     

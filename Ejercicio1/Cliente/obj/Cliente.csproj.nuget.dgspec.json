@@ -1,96 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\roger\\Dropbox\\La Salle - Online\\2023-2024\\Prácticas\\UF3\\Enunciado\\Cliente\\Cliente.csproj": {}
+    "C:\\Users\\Pau\\Desktop\\ICB0009-UF3-PR01-paugallardogiralt\\Ejercicio1\\Cliente\\Cliente.csproj": {}
   },
   "projects": {
-    "C:\\Users\\roger\\Dropbox\\La Salle - Online\\2023-2024\\Prácticas\\UF3\\Enunciado\\Carretera\\Carretera.csproj": {
+    "C:\\Users\\Pau\\Desktop\\ICB0009-UF3-PR01-paugallardogiralt\\Ejercicio1\\Carretera\\Carretera.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\roger\\Dropbox\\La Salle - Online\\2023-2024\\Prácticas\\UF3\\Enunciado\\Carretera\\Carretera.csproj",
+        "projectUniqueName": "C:\\Users\\Pau\\Desktop\\ICB0009-UF3-PR01-paugallardogiralt\\Ejercicio1\\Carretera\\Carretera.csproj",
         "projectName": "Carretera",
-        "projectPath": "C:\\Users\\roger\\Dropbox\\La Salle - Online\\2023-2024\\Prácticas\\UF3\\Enunciado\\Carretera\\Carretera.csproj",
-        "packagesPath": "C:\\Users\\roger\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\roger\\Dropbox\\La Salle - Online\\2023-2024\\Prácticas\\UF3\\Enunciado\\Carretera\\obj\\",
+        "projectPath": "C:\\Users\\Pau\\Desktop\\ICB0009-UF3-PR01-paugallardogiralt\\Ejercicio1\\Carretera\\Carretera.csproj",
+        "packagesPath": "C:\\Users\\Pau\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Pau\\Desktop\\ICB0009-UF3-PR01-paugallardogiralt\\Ejercicio1\\Carretera\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\roger\\AppData\\Roaming\\NuGet\\NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {
-              "C:\\Users\\roger\\Dropbox\\La Salle - Online\\2023-2024\\Prácticas\\UF3\\Enunciado\\Vehiculo\\Vehiculo.csproj": {
-                "projectPath": "C:\\Users\\roger\\Dropbox\\La Salle - Online\\2023-2024\\Prácticas\\UF3\\Enunciado\\Vehiculo\\Vehiculo.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.28, 6.0.28]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.28, 6.0.28]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.28, 6.0.28]"
-            }
-          ],
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\roger\\Dropbox\\La Salle - Online\\2023-2024\\Prácticas\\UF3\\Enunciado\\Cliente\\Cliente.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\roger\\Dropbox\\La Salle - Online\\2023-2024\\Prácticas\\UF3\\Enunciado\\Cliente\\Cliente.csproj",
-        "projectName": "Cliente",
-        "projectPath": "C:\\Users\\roger\\Dropbox\\La Salle - Online\\2023-2024\\Prácticas\\UF3\\Enunciado\\Cliente\\Cliente.csproj",
-        "packagesPath": "C:\\Users\\roger\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\roger\\Dropbox\\La Salle - Online\\2023-2024\\Prácticas\\UF3\\Enunciado\\Cliente\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\roger\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Pau\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -102,14 +26,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\roger\\Dropbox\\La Salle - Online\\2023-2024\\Prácticas\\UF3\\Enunciado\\Carretera\\Carretera.csproj": {
-                "projectPath": "C:\\Users\\roger\\Dropbox\\La Salle - Online\\2023-2024\\Prácticas\\UF3\\Enunciado\\Carretera\\Carretera.csproj"
-              },
-              "C:\\Users\\roger\\Dropbox\\La Salle - Online\\2023-2024\\Prácticas\\UF3\\Enunciado\\NetworkStreamClass\\NetworkStreamClass.csproj": {
-                "projectPath": "C:\\Users\\roger\\Dropbox\\La Salle - Online\\2023-2024\\Prácticas\\UF3\\Enunciado\\NetworkStreamClass\\NetworkStreamClass.csproj"
-              },
-              "C:\\Users\\roger\\Dropbox\\La Salle - Online\\2023-2024\\Prácticas\\UF3\\Enunciado\\Vehiculo\\Vehiculo.csproj": {
-                "projectPath": "C:\\Users\\roger\\Dropbox\\La Salle - Online\\2023-2024\\Prácticas\\UF3\\Enunciado\\Vehiculo\\Vehiculo.csproj"
+              "C:\\Users\\Pau\\Desktop\\ICB0009-UF3-PR01-paugallardogiralt\\Ejercicio1\\Vehiculo\\Vehiculo.csproj": {
+                "projectPath": "C:\\Users\\Pau\\Desktop\\ICB0009-UF3-PR01-paugallardogiralt\\Ejercicio1\\Vehiculo\\Vehiculo.csproj"
               }
             }
           }
@@ -123,7 +41,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -139,42 +58,59 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.14, 8.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.14, 8.0.14]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.14, 8.0.14]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\roger\\Dropbox\\La Salle - Online\\2023-2024\\Prácticas\\UF3\\Enunciado\\NetworkStreamClass\\NetworkStreamClass.csproj": {
+    "C:\\Users\\Pau\\Desktop\\ICB0009-UF3-PR01-paugallardogiralt\\Ejercicio1\\Cliente\\Cliente.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\roger\\Dropbox\\La Salle - Online\\2023-2024\\Prácticas\\UF3\\Enunciado\\NetworkStreamClass\\NetworkStreamClass.csproj",
-        "projectName": "NetworkStreamClass",
-        "projectPath": "C:\\Users\\roger\\Dropbox\\La Salle - Online\\2023-2024\\Prácticas\\UF3\\Enunciado\\NetworkStreamClass\\NetworkStreamClass.csproj",
-        "packagesPath": "C:\\Users\\roger\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\roger\\Dropbox\\La Salle - Online\\2023-2024\\Prácticas\\UF3\\Enunciado\\NetworkStreamClass\\obj\\",
+        "projectUniqueName": "C:\\Users\\Pau\\Desktop\\ICB0009-UF3-PR01-paugallardogiralt\\Ejercicio1\\Cliente\\Cliente.csproj",
+        "projectName": "Cliente",
+        "projectPath": "C:\\Users\\Pau\\Desktop\\ICB0009-UF3-PR01-paugallardogiralt\\Ejercicio1\\Cliente\\Cliente.csproj",
+        "packagesPath": "C:\\Users\\Pau\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Pau\\Desktop\\ICB0009-UF3-PR01-paugallardogiralt\\Ejercicio1\\Cliente\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\roger\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Pau\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\roger\\Dropbox\\La Salle - Online\\2023-2024\\Prácticas\\UF3\\Enunciado\\Carretera\\Carretera.csproj": {
-                "projectPath": "C:\\Users\\roger\\Dropbox\\La Salle - Online\\2023-2024\\Prácticas\\UF3\\Enunciado\\Carretera\\Carretera.csproj"
+              "C:\\Users\\Pau\\Desktop\\ICB0009-UF3-PR01-paugallardogiralt\\Ejercicio1\\Carretera\\Carretera.csproj": {
+                "projectPath": "C:\\Users\\Pau\\Desktop\\ICB0009-UF3-PR01-paugallardogiralt\\Ejercicio1\\Carretera\\Carretera.csproj"
               },
-              "C:\\Users\\roger\\Dropbox\\La Salle - Online\\2023-2024\\Prácticas\\UF3\\Enunciado\\Vehiculo\\Vehiculo.csproj": {
-                "projectPath": "C:\\Users\\roger\\Dropbox\\La Salle - Online\\2023-2024\\Prácticas\\UF3\\Enunciado\\Vehiculo\\Vehiculo.csproj"
+              "C:\\Users\\Pau\\Desktop\\ICB0009-UF3-PR01-paugallardogiralt\\Ejercicio1\\NetworkStreamClass\\NetworkStreamClass.csproj": {
+                "projectPath": "C:\\Users\\Pau\\Desktop\\ICB0009-UF3-PR01-paugallardogiralt\\Ejercicio1\\NetworkStreamClass\\NetworkStreamClass.csproj"
+              },
+              "C:\\Users\\Pau\\Desktop\\ICB0009-UF3-PR01-paugallardogiralt\\Ejercicio1\\Vehiculo\\Vehiculo.csproj": {
+                "projectPath": "C:\\Users\\Pau\\Desktop\\ICB0009-UF3-PR01-paugallardogiralt\\Ejercicio1\\Vehiculo\\Vehiculo.csproj"
               }
             }
           }
@@ -188,11 +124,12 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",
@@ -207,15 +144,19 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.28, 6.0.28]"
+              "version": "[8.0.14, 8.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.14, 8.0.14]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.28, 6.0.28]"
+              "version": "[8.0.14, 8.0.14]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.28, 6.0.28]"
+              "version": "[8.0.14, 8.0.14]"
             }
           ],
           "frameworkReferences": {
@@ -223,31 +164,111 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\roger\\Dropbox\\La Salle - Online\\2023-2024\\Prácticas\\UF3\\Enunciado\\Vehiculo\\Vehiculo.csproj": {
+    "C:\\Users\\Pau\\Desktop\\ICB0009-UF3-PR01-paugallardogiralt\\Ejercicio1\\NetworkStreamClass\\NetworkStreamClass.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\roger\\Dropbox\\La Salle - Online\\2023-2024\\Prácticas\\UF3\\Enunciado\\Vehiculo\\Vehiculo.csproj",
-        "projectName": "Vehiculo",
-        "projectPath": "C:\\Users\\roger\\Dropbox\\La Salle - Online\\2023-2024\\Prácticas\\UF3\\Enunciado\\Vehiculo\\Vehiculo.csproj",
-        "packagesPath": "C:\\Users\\roger\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\roger\\Dropbox\\La Salle - Online\\2023-2024\\Prácticas\\UF3\\Enunciado\\Vehiculo\\obj\\",
+        "projectUniqueName": "C:\\Users\\Pau\\Desktop\\ICB0009-UF3-PR01-paugallardogiralt\\Ejercicio1\\NetworkStreamClass\\NetworkStreamClass.csproj",
+        "projectName": "NetworkStreamClass",
+        "projectPath": "C:\\Users\\Pau\\Desktop\\ICB0009-UF3-PR01-paugallardogiralt\\Ejercicio1\\NetworkStreamClass\\NetworkStreamClass.csproj",
+        "packagesPath": "C:\\Users\\Pau\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Pau\\Desktop\\ICB0009-UF3-PR01-paugallardogiralt\\Ejercicio1\\NetworkStreamClass\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\roger\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Pau\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Pau\\Desktop\\ICB0009-UF3-PR01-paugallardogiralt\\Ejercicio1\\Carretera\\Carretera.csproj": {
+                "projectPath": "C:\\Users\\Pau\\Desktop\\ICB0009-UF3-PR01-paugallardogiralt\\Ejercicio1\\Carretera\\Carretera.csproj"
+              },
+              "C:\\Users\\Pau\\Desktop\\ICB0009-UF3-PR01-paugallardogiralt\\Ejercicio1\\Vehiculo\\Vehiculo.csproj": {
+                "projectPath": "C:\\Users\\Pau\\Desktop\\ICB0009-UF3-PR01-paugallardogiralt\\Ejercicio1\\Vehiculo\\Vehiculo.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.14, 8.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.14, 8.0.14]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.14, 8.0.14]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Pau\\Desktop\\ICB0009-UF3-PR01-paugallardogiralt\\Ejercicio1\\Vehiculo\\Vehiculo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Pau\\Desktop\\ICB0009-UF3-PR01-paugallardogiralt\\Ejercicio1\\Vehiculo\\Vehiculo.csproj",
+        "projectName": "Vehiculo",
+        "projectPath": "C:\\Users\\Pau\\Desktop\\ICB0009-UF3-PR01-paugallardogiralt\\Ejercicio1\\Vehiculo\\Vehiculo.csproj",
+        "packagesPath": "C:\\Users\\Pau\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Pau\\Desktop\\ICB0009-UF3-PR01-paugallardogiralt\\Ejercicio1\\Vehiculo\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Pau\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -260,11 +281,12 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",
@@ -279,15 +301,15 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.28, 6.0.28]"
+              "version": "[8.0.14, 8.0.14]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.28, 6.0.28]"
+              "version": "[8.0.14, 8.0.14]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.28, 6.0.28]"
+              "version": "[8.0.14, 8.0.14]"
             }
           ],
           "frameworkReferences": {
@@ -295,7 +317,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

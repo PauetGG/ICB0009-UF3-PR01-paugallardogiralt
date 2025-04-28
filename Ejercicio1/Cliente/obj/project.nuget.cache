@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "gS36lXtBdjNvXx3DwYx2xdVRc6G67MaINsoXz8iLuZppBTL5VzY7IKJiyHwcw8xN3p4SJmqpJiprkcFJ+HyGfA==",
+  "dgSpecHash": "K1fAzfZtlgQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\roger\\Dropbox\\La Salle - Online\\2023-2024\\Prácticas\\UF3\\Enunciado\\Cliente\\Cliente.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Pau\\Desktop\\ICB0009-UF3-PR01-paugallardogiralt\\Ejercicio1\\Cliente\\Cliente.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Pau\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.14\\microsoft.netcore.app.ref.8.0.14.nupkg.sha512",
+    "C:\\Users\\Pau\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.14\\microsoft.windowsdesktop.app.ref.8.0.14.nupkg.sha512",
+    "C:\\Users\\Pau\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.14\\microsoft.aspnetcore.app.ref.8.0.14.nupkg.sha512",
+    "C:\\Users\\Pau\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.14\\microsoft.netcore.app.host.win-x64.8.0.14.nupkg.sha512"
+  ],
   "logs": []
 }
