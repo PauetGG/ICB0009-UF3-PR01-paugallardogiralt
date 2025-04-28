@@ -54,6 +54,10 @@ namespace Servidor
             VehiculoClass.Vehiculo vehiculo = new VehiculoClass.Vehiculo();
             vehiculo.Id = id;
             vehiculo.Direccion = direccion;
+
+            // Obtenemos el NetWorkStream del cliente
+             NetworkStream stream = cliente.GetStream();
+             Console.WriteLine("[Servidor] NetworkStream obtenido para el cliente.");
         }
 
 

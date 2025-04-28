@@ -23,6 +23,8 @@ namespace Client
                 TcpClient cliente = new TcpClient();
                 cliente.Connect(ipServidor, puerto);
                 Console.WriteLine("[Cliente] Conectado al servidor correctamente.");
+                NetworkStream stream = cliente.GetStream();
+                Console.WriteLine("[Cliente] NetworkStream obtenido para la conexión.");
             }
             catch (Exception ex)
             {
