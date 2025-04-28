@@ -25,6 +25,15 @@ namespace Client
                 Console.WriteLine("[Cliente] Conectado al servidor correctamente.");
                 NetworkStream stream = cliente.GetStream();
                 Console.WriteLine("[Cliente] NetworkStream obtenido para la conexión.");
+                // Handshake
+                NetworkStreamClass.EscribirMensajeNetworkStream(stream, "INICIO");
+                Console.WriteLine("[Cliente] Enviado INICIO al servidor.");
+                // Esperamos recibir el ID del servidor
+                string idRecibido = NetworkStreamClass.LeerMensajeNetworkStream(stream);
+                Console.WriteLine($"[Cliente] ID recibido del servidor: {idRecibido}");
+                // Enviamos de vuelta el mismo ID como confirmación
+                NetworkStreamClass.EscribirMensajeNetworkStream(stream, idRecibido);
+                Console.WriteLine("[Cliente] ID reenviado al servidor como confirmación.");
             }
             catch (Exception ex)
             {

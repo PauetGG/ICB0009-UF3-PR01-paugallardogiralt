@@ -58,9 +58,39 @@ namespace Servidor
             // Obtenemos el NetWorkStream del cliente
              NetworkStream stream = cliente.GetStream();
              Console.WriteLine("[Servidor] NetworkStream obtenido para el cliente.");
+            
+            //Handshake
+             string mensajeInicio = NetworkStreamClass.LeerMensajeNetworkStream(stream);
+            Console.WriteLine($"[Servidor] Recibido del cliente: {mensajeInicio}");
+
+            if (mensajeInicio == "INICIO")
+            {
+                Console.WriteLine("[Servidor] Cliente quiere iniciar handshake.");
+
+                // Enviamos el ID como si fuera un string
+                NetworkStreamClass.EscribirMensajeNetworkStream(stream, id.ToString());
+                Console.WriteLine($"[Servidor] ID {id} enviado al cliente.");
+
+                // Esperamos la confirmación del cliente
+                string respuesta = NetworkStreamClass.LeerMensajeNetworkStream(stream);
+                Console.WriteLine($"[Servidor] Confirmación recibida: {respuesta}");
+
+                if (respuesta == id.ToString())
+                {
+                    Console.WriteLine($"[Servidor] Handshake exitoso con cliente ID {id}.");
+                }
+                else
+                {
+                    Console.WriteLine("[Servidor] Handshake fallido, ID no coincide.");
+                }
+            }
+            else
+            {
+                Console.WriteLine("[Servidor] Mensaje inesperado. Cerrando conexión.");
+                cliente.Close();
+            }
         }
-
-
+        
         static string AsignarDireccionAleatoria()
         {
             Random random = new Random();
