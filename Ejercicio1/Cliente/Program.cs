@@ -8,28 +8,34 @@ using NetworkStreamNS;
 using CarreteraClass;
 using VehiculoClass;
 
-namespace Client
+namespace Servidor
 {
     class Program
     {
         static void Main(string[] args)
         {
-            string ipServidor = "127.0.0.1";
             int puerto = 5000;
+            TcpListener servidor = new TcpListener(IPAddress.Any, puerto);
 
-            try
-            {
-                Console.WriteLine("[Cliente] Intentando conectar al servidor...");
-                TcpClient cliente = new TcpClient();
-                cliente.Connect(ipServidor, puerto);
-                Console.WriteLine("[Cliente] Conectado al servidor correctamente.");
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"[Cliente] Error al conectar: {ex.Message}");
-            }
+            servidor.Start();
+            Console.WriteLine($"[Servidor] Servidor iniciado en el puerto {puerto}");
 
-            Console.ReadLine(); // Mantenemos el cliente abierto
+            while (true)
+            {
+                Console.WriteLine("[Servidor] Esperando conexión de un cliente...");
+                TcpClient cliente = servidor.AcceptTcpClient();
+                Console.WriteLine($"[Servidor] Cliente conectado desde {cliente.Client.RemoteEndPoint}");
+
+                // Creamos un nuevo hilo para gestionar cada cliente
+                Thread clientThread = new Thread(() => GestionarCliente(cliente));
+                clientThread.Start();
+            }
+        }
+
+        static void GestionarCliente(TcpClient cliente)
+        {
+            Console.WriteLine("[Servidor] Gestionando nuevo vehículo...");
+
         }
     }
 }
