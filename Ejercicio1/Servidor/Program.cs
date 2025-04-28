@@ -14,6 +14,8 @@ namespace Servidor
     {
         static int contadorVehiculos = 0;
         static readonly object lockObject = new object(); 
+        //Lista de los clientes que se han conectado
+         static List<Cliente> listaClientes = new List<Cliente>();
 
         static void Main(string[] args)
         {
@@ -78,6 +80,14 @@ namespace Servidor
                 if (respuesta == id.ToString())
                 {
                     Console.WriteLine($"[Servidor] Handshake exitoso con cliente ID {id}.");
+                    // Si el handshake es existoso creamos un nuevo objeto cliente y lo añadimos a la lista 
+                    Cliente nuevoCliente = new Cliente(id, stream);
+
+                    lock (listaClientes) 
+                    {
+                        listaClientes.Add(nuevoCliente);
+                        Console.WriteLine($"[Servidor] Clientes conectados: {listaClientes.Count}");
+                    }
                 }
                 else
                 {
@@ -90,7 +100,7 @@ namespace Servidor
                 cliente.Close();
             }
         }
-        
+
         static string AsignarDireccionAleatoria()
         {
             Random random = new Random();
