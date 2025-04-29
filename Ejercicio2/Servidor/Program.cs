@@ -111,6 +111,7 @@ namespace Servidor
                             {
                                 carretera.ActualizarVehiculo(vehiculoActualizado);
                             }
+                            EnviarCarreteraTodosClientes();
                         }
                         catch (Exception ex)
                         {
@@ -136,5 +137,22 @@ namespace Servidor
             int valor = random.Next(0, 2);
             return valor == 0 ? "norte" : "sur";
         }
+    static void EnviarCarreteraTodosClientes()
+    {
+        lock (listaClientes) 
+        {
+            foreach (Cliente cliente in listaClientes)
+            {
+                try
+                {
+                    NetworkStreamClass.EscribirDatosCarreteraNS(cliente.Stream, carretera);
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"[Servidor] Error enviando carretera al cliente {cliente.Id}: {ex.Message}");
+                }
+            }
+        }
     }
+}
 }
