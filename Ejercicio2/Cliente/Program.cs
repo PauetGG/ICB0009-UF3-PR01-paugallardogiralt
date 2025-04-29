@@ -40,6 +40,17 @@ namespace Client
                 Console.WriteLine($"[Cliente] Vehiculo creado. ID: {miVehiculo.Id}, Dirección: {miVehiculo.Direccion}");
                 NetworkStreamClass.EscribirDatosVehiculoNS(stream, miVehiculo);
                 Console.WriteLine("[Cliente] Vehiculo enviado al servidor.");
+                // Simulamos el avance del vehiculo
+                while (miVehiculo.Pos < 100)
+                {
+                    Thread.Sleep(miVehiculo.Velocidad); 
+                    miVehiculo.Pos++; 
+                    Console.WriteLine($"[Cliente] Vehiculo {miVehiculo.Id} avanzando. Nueva posición: {miVehiculo.Pos} km");
+
+                    NetworkStreamClass.EscribirDatosVehiculoNS(stream, miVehiculo);
+                    Console.WriteLine($"[Cliente] Vehiculo {miVehiculo.Id} actualizado enviado al servidor.");
+                }
+                Console.WriteLine($"[Cliente] Vehiculo {miVehiculo.Id} ha llegado al final de la carretera.");
             }
             catch (Exception ex)
             {

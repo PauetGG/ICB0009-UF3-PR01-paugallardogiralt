@@ -99,6 +99,25 @@ namespace Servidor
                         carretera.AñadirVehiculo(vehiculoRecibido);
                         Console.WriteLine($"[Servidor] Vehiculos en carretera: {carretera.NumVehiculosEnCarrera}");
                     }
+                    while (true)
+                    {
+                        try
+                        {
+                            Vehiculo vehiculoActualizado = NetworkStreamClass.LeerDatosVehiculoNS(stream);
+
+                            Console.WriteLine($"[Servidor] Actualización recibida: Vehiculo ID {vehiculoActualizado.Id}, Posición {vehiculoActualizado.Pos}");
+
+                            lock (carretera)
+                            {
+                                carretera.ActualizarVehiculo(vehiculoActualizado);
+                            }
+                        }
+                        catch (Exception ex)
+                        {
+                            Console.WriteLine($"[Servidor] Error al leer datos del cliente: {ex.Message}");
+                            break; // Salimos del bucle si hay error
+                        }
+                    }
                 }
                 else
                 {
@@ -111,7 +130,6 @@ namespace Servidor
                 cliente.Close();
             }
         }
-
         static string AsignarDireccionAleatoria()
         {
             Random random = new Random();
