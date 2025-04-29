@@ -1,0 +1,71 @@
+C:\Users\roger\Dropbox\La Salle - Online\2023-2024\Prácticas\UF3\Enunciado\NetworkStreamClass\bin\Debug\net8.0\NetworkStreamClass.deps.json
+C:\Users\roger\Dropbox\La Salle - Online\2023-2024\Prácticas\UF3\Enunciado\NetworkStreamClass\bin\Debug\net8.0\NetworkStreamClass.dll
+C:\Users\roger\Dropbox\La Salle - Online\2023-2024\Prácticas\UF3\Enunciado\NetworkStreamClass\bin\Debug\net8.0\NetworkStreamClass.pdb
+C:\Users\roger\Dropbox\La Salle - Online\2023-2024\Prácticas\UF3\Enunciado\NetworkStreamClass\bin\Debug\net8.0\Carretera.dll
+C:\Users\roger\Dropbox\La Salle - Online\2023-2024\Prácticas\UF3\Enunciado\NetworkStreamClass\bin\Debug\net8.0\Vehiculo.dll
+C:\Users\roger\Dropbox\La Salle - Online\2023-2024\Prácticas\UF3\Enunciado\NetworkStreamClass\bin\Debug\net8.0\Vehiculo.pdb
+C:\Users\roger\Dropbox\La Salle - Online\2023-2024\Prácticas\UF3\Enunciado\NetworkStreamClass\bin\Debug\net8.0\Carretera.pdb
+C:\Users\roger\Dropbox\La Salle - Online\2023-2024\Prácticas\UF3\Enunciado\NetworkStreamClass\obj\Debug\net8.0\NetworkStreamClass.csproj.AssemblyReference.cache
+C:\Users\roger\Dropbox\La Salle - Online\2023-2024\Prácticas\UF3\Enunciado\NetworkStreamClass\obj\Debug\net8.0\NetworkStreamClass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\roger\Dropbox\La Salle - Online\2023-2024\Prácticas\UF3\Enunciado\NetworkStreamClass\obj\Debug\net8.0\NetworkStreamClass.AssemblyInfoInputs.cache
+C:\Users\roger\Dropbox\La Salle - Online\2023-2024\Prácticas\UF3\Enunciado\NetworkStreamClass\obj\Debug\net8.0\NetworkStreamClass.AssemblyInfo.cs
+C:\Users\roger\Dropbox\La Salle - Online\2023-2024\Prácticas\UF3\Enunciado\NetworkStreamClass\obj\Debug\net8.0\NetworkStreamClass.csproj.CoreCompileInputs.cache
+C:\Users\roger\Dropbox\La Salle - Online\2023-2024\Prácticas\UF3\Enunciado\NetworkStreamClass\obj\Debug\net8.0\NetworkS.E0D52BE6.Up2Date
+C:\Users\roger\Dropbox\La Salle - Online\2023-2024\Prácticas\UF3\Enunciado\NetworkStreamClass\obj\Debug\net8.0\NetworkStreamClass.dll
+C:\Users\roger\Dropbox\La Salle - Online\2023-2024\Prácticas\UF3\Enunciado\NetworkStreamClass\obj\Debug\net8.0\refint\NetworkStreamClass.dll
+C:\Users\roger\Dropbox\La Salle - Online\2023-2024\Prácticas\UF3\Enunciado\NetworkStreamClass\obj\Debug\net8.0\NetworkStreamClass.pdb
+C:\Users\roger\Dropbox\La Salle - Online\2023-2024\Prácticas\UF3\Enunciado\NetworkStreamClass\obj\Debug\net8.0\ref\NetworkStreamClass.dll
+C:\Users\Pau\Desktop\ICB0009-UF3-PR01-paugallardogiralt\Ejercicio1\NetworkStreamClass\bin\Debug\net8.0\NetworkStreamClass.deps.json
+C:\Users\Pau\Desktop\ICB0009-UF3-PR01-paugallardogiralt\Ejercicio1\NetworkStreamClass\bin\Debug\net8.0\NetworkStreamClass.dll
+C:\Users\Pau\Desktop\ICB0009-UF3-PR01-paugallardogiralt\Ejercicio1\NetworkStreamClass\bin\Debug\net8.0\NetworkStreamClass.pdb
+C:\Users\Pau\Desktop\ICB0009-UF3-PR01-paugallardogiralt\Ejercicio1\NetworkStreamClass\bin\Debug\net8.0\Carretera.dll
+C:\Users\Pau\Desktop\ICB0009-UF3-PR01-paugallardogiralt\Ejercicio1\NetworkStreamClass\bin\Debug\net8.0\Vehiculo.dll
+C:\Users\Pau\Desktop\ICB0009-UF3-PR01-paugallardogiralt\Ejercicio1\NetworkStreamClass\bin\Debug\net8.0\Vehiculo.pdb
+C:\Users\Pau\Desktop\ICB0009-UF3-PR01-paugallardogiralt\Ejercicio1\NetworkStreamClass\bin\Debug\net8.0\Carretera.pdb
+C:\Users\Pau\Desktop\ICB0009-UF3-PR01-paugallardogiralt\Ejercicio1\NetworkStreamClass\obj\Debug\net8.0\NetworkStreamClass.csproj.AssemblyReference.cache
+C:\Users\Pau\Desktop\ICB0009-UF3-PR01-paugallardogiralt\Ejercicio1\NetworkStreamClass\obj\Debug\net8.0\NetworkStreamClass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pau\Desktop\ICB0009-UF3-PR01-paugallardogiralt\Ejercicio1\NetworkStreamClass\obj\Debug\net8.0\NetworkStreamClass.AssemblyInfoInputs.cache
+C:\Users\Pau\Desktop\ICB0009-UF3-PR01-paugallardogiralt\Ejercicio1\NetworkStreamClass\obj\Debug\net8.0\NetworkStreamClass.AssemblyInfo.cs
+C:\Users\Pau\Desktop\ICB0009-UF3-PR01-paugallardogiralt\Ejercicio1\NetworkStreamClass\obj\Debug\net8.0\NetworkStreamClass.csproj.CoreCompileInputs.cache
+C:\Users\Pau\Desktop\ICB0009-UF3-PR01-paugallardogiralt\Ejercicio1\NetworkStreamClass\obj\Debug\net8.0\NetworkStreamClass.sourcelink.json
+C:\Users\Pau\Desktop\ICB0009-UF3-PR01-paugallardogiralt\Ejercicio1\NetworkStreamClass\obj\Debug\net8.0\NetworkS.E0D52BE6.Up2Date
+C:\Users\Pau\Desktop\ICB0009-UF3-PR01-paugallardogiralt\Ejercicio1\NetworkStreamClass\obj\Debug\net8.0\NetworkStreamClass.dll
+C:\Users\Pau\Desktop\ICB0009-UF3-PR01-paugallardogiralt\Ejercicio1\NetworkStreamClass\obj\Debug\net8.0\refint\NetworkStreamClass.dll
+C:\Users\Pau\Desktop\ICB0009-UF3-PR01-paugallardogiralt\Ejercicio1\NetworkStreamClass\obj\Debug\net8.0\NetworkStreamClass.pdb
+C:\Users\Pau\Desktop\ICB0009-UF3-PR01-paugallardogiralt\Ejercicio1\NetworkStreamClass\obj\Debug\net8.0\ref\NetworkStreamClass.dll
+C:\Users\Pau\Desktop\ICB0009-UF3-PR01-paugallardogiralt\Ejercicio2\NetworkStreamClass\obj\Debug\net8.0\NetworkStreamClass.csproj.AssemblyReference.cache
+C:\Users\Pau\Desktop\ICB0009-UF3-PR01-paugallardogiralt\Ejercicio2\NetworkStreamClass\obj\Debug\net8.0\NetworkStreamClass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pau\Desktop\ICB0009-UF3-PR01-paugallardogiralt\Ejercicio2\NetworkStreamClass\obj\Debug\net8.0\NetworkStreamClass.AssemblyInfoInputs.cache
+C:\Users\Pau\Desktop\ICB0009-UF3-PR01-paugallardogiralt\Ejercicio2\NetworkStreamClass\obj\Debug\net8.0\NetworkStreamClass.AssemblyInfo.cs
+C:\Users\Pau\Desktop\ICB0009-UF3-PR01-paugallardogiralt\Ejercicio2\NetworkStreamClass\obj\Debug\net8.0\NetworkStreamClass.csproj.CoreCompileInputs.cache
+C:\Users\Pau\Desktop\ICB0009-UF3-PR01-paugallardogiralt\Ejercicio2\NetworkStreamClass\obj\Debug\net8.0\NetworkStreamClass.sourcelink.json
+C:\Users\Pau\Desktop\ICB0009-UF3-PR01-paugallardogiralt\Ejercicio2\NetworkStreamClass\obj\Debug\net8.0\NetworkStreamClass.dll
+C:\Users\Pau\Desktop\ICB0009-UF3-PR01-paugallardogiralt\Ejercicio2\NetworkStreamClass\obj\Debug\net8.0\refint\NetworkStreamClass.dll
+C:\Users\Pau\Desktop\ICB0009-UF3-PR01-paugallardogiralt\Ejercicio2\NetworkStreamClass\obj\Debug\net8.0\NetworkStreamClass.pdb
+C:\Users\Pau\Desktop\ICB0009-UF3-PR01-paugallardogiralt\Ejercicio2\NetworkStreamClass\bin\Debug\net8.0\NetworkStreamClass.deps.json
+C:\Users\Pau\Desktop\ICB0009-UF3-PR01-paugallardogiralt\Ejercicio2\NetworkStreamClass\bin\Debug\net8.0\NetworkStreamClass.dll
+C:\Users\Pau\Desktop\ICB0009-UF3-PR01-paugallardogiralt\Ejercicio2\NetworkStreamClass\bin\Debug\net8.0\NetworkStreamClass.pdb
+C:\Users\Pau\Desktop\ICB0009-UF3-PR01-paugallardogiralt\Ejercicio2\NetworkStreamClass\bin\Debug\net8.0\Carretera.dll
+C:\Users\Pau\Desktop\ICB0009-UF3-PR01-paugallardogiralt\Ejercicio2\NetworkStreamClass\bin\Debug\net8.0\Vehiculo.dll
+C:\Users\Pau\Desktop\ICB0009-UF3-PR01-paugallardogiralt\Ejercicio2\NetworkStreamClass\bin\Debug\net8.0\Vehiculo.pdb
+C:\Users\Pau\Desktop\ICB0009-UF3-PR01-paugallardogiralt\Ejercicio2\NetworkStreamClass\bin\Debug\net8.0\Carretera.pdb
+C:\Users\Pau\Desktop\ICB0009-UF3-PR01-paugallardogiralt\Ejercicio2\NetworkStreamClass\obj\Debug\net8.0\NetworkS.E0D52BE6.Up2Date
+C:\Users\Pau\Desktop\ICB0009-UF3-PR01-paugallardogiralt\Ejercicio2\NetworkStreamClass\obj\Debug\net8.0\ref\NetworkStreamClass.dll
+C:\Users\Pau\Desktop\ICB0009-UF3-PR01-paugallardogiralt\Ejercicio3\NetworkStreamClass\bin\Debug\net8.0\NetworkStreamClass.deps.json
+C:\Users\Pau\Desktop\ICB0009-UF3-PR01-paugallardogiralt\Ejercicio3\NetworkStreamClass\bin\Debug\net8.0\NetworkStreamClass.dll
+C:\Users\Pau\Desktop\ICB0009-UF3-PR01-paugallardogiralt\Ejercicio3\NetworkStreamClass\bin\Debug\net8.0\NetworkStreamClass.pdb
+C:\Users\Pau\Desktop\ICB0009-UF3-PR01-paugallardogiralt\Ejercicio3\NetworkStreamClass\bin\Debug\net8.0\Carretera.dll
+C:\Users\Pau\Desktop\ICB0009-UF3-PR01-paugallardogiralt\Ejercicio3\NetworkStreamClass\bin\Debug\net8.0\Vehiculo.dll
+C:\Users\Pau\Desktop\ICB0009-UF3-PR01-paugallardogiralt\Ejercicio3\NetworkStreamClass\bin\Debug\net8.0\Vehiculo.pdb
+C:\Users\Pau\Desktop\ICB0009-UF3-PR01-paugallardogiralt\Ejercicio3\NetworkStreamClass\bin\Debug\net8.0\Carretera.pdb
+C:\Users\Pau\Desktop\ICB0009-UF3-PR01-paugallardogiralt\Ejercicio3\NetworkStreamClass\obj\Debug\net8.0\NetworkStreamClass.csproj.AssemblyReference.cache
+C:\Users\Pau\Desktop\ICB0009-UF3-PR01-paugallardogiralt\Ejercicio3\NetworkStreamClass\obj\Debug\net8.0\NetworkStreamClass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pau\Desktop\ICB0009-UF3-PR01-paugallardogiralt\Ejercicio3\NetworkStreamClass\obj\Debug\net8.0\NetworkStreamClass.AssemblyInfoInputs.cache
+C:\Users\Pau\Desktop\ICB0009-UF3-PR01-paugallardogiralt\Ejercicio3\NetworkStreamClass\obj\Debug\net8.0\NetworkStreamClass.AssemblyInfo.cs
+C:\Users\Pau\Desktop\ICB0009-UF3-PR01-paugallardogiralt\Ejercicio3\NetworkStreamClass\obj\Debug\net8.0\NetworkStreamClass.csproj.CoreCompileInputs.cache
+C:\Users\Pau\Desktop\ICB0009-UF3-PR01-paugallardogiralt\Ejercicio3\NetworkStreamClass\obj\Debug\net8.0\NetworkStreamClass.sourcelink.json
+C:\Users\Pau\Desktop\ICB0009-UF3-PR01-paugallardogiralt\Ejercicio3\NetworkStreamClass\obj\Debug\net8.0\NetworkS.E0D52BE6.Up2Date
+C:\Users\Pau\Desktop\ICB0009-UF3-PR01-paugallardogiralt\Ejercicio3\NetworkStreamClass\obj\Debug\net8.0\NetworkStreamClass.dll
+C:\Users\Pau\Desktop\ICB0009-UF3-PR01-paugallardogiralt\Ejercicio3\NetworkStreamClass\obj\Debug\net8.0\refint\NetworkStreamClass.dll
+C:\Users\Pau\Desktop\ICB0009-UF3-PR01-paugallardogiralt\Ejercicio3\NetworkStreamClass\obj\Debug\net8.0\NetworkStreamClass.pdb
+C:\Users\Pau\Desktop\ICB0009-UF3-PR01-paugallardogiralt\Ejercicio3\NetworkStreamClass\obj\Debug\net8.0\ref\NetworkStreamClass.dll
