@@ -34,6 +34,12 @@ namespace Client
                 // Enviamos de vuelta el mismo ID como confirmación
                 NetworkStreamClass.EscribirMensajeNetworkStream(stream, idRecibido);
                 Console.WriteLine("[Cliente] ID reenviado al servidor como confirmación.");
+                // Creamos y enviarmos el vehiculo al servidor
+                Vehiculo miVehiculo = new Vehiculo();
+                miVehiculo.Id = int.Parse(idRecibido);
+                Console.WriteLine($"[Cliente] Vehiculo creado. ID: {miVehiculo.Id}, Dirección: {miVehiculo.Direccion}");
+                NetworkStreamClass.EscribirDatosVehiculoNS(stream, miVehiculo);
+                Console.WriteLine("[Cliente] Vehiculo enviado al servidor.");
             }
             catch (Exception ex)
             {

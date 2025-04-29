@@ -14,7 +14,7 @@ namespace NetworkStreamNS
         //Método para escribir en un NetworkStream los datos de tipo Carretera
         public static void  EscribirDatosCarreteraNS(NetworkStream NS, Carretera C)
         {            
-            byte[] bytesCarretera = C.CarreteraaBytes(); 
+            byte[] bytesCarretera = C.CarreteraABytes(); 
 
             byte[] longitud = BitConverter.GetBytes(bytesCarretera.Length);
             NS.Write(longitud, 0, longitud.Length);
@@ -72,7 +72,6 @@ namespace NetworkStreamNS
 
             Vehiculo vehiculo = Vehiculo.BytesAVehiculo(datosVehiculo);
             return vehiculo;
-        }
         }
 
         //Método que permite leer un mensaje de tipo texto (string) de un NetworkStream

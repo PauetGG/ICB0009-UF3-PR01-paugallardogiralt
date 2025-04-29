@@ -4,6 +4,7 @@ using System.Net;
 using System.Text;
 using System.IO;
 using System.Threading;
+using System.Collections.Generic;
 using NetworkStreamNS;
 using CarreteraClass;
 using VehiculoClass;
@@ -16,6 +17,7 @@ namespace Servidor
         static readonly object lockObject = new object(); 
         //Lista de los clientes que se han conectado
          static List<Cliente> listaClientes = new List<Cliente>();
+         static Carretera carretera = new Carretera();
 
         static void Main(string[] args)
         {
@@ -87,6 +89,15 @@ namespace Servidor
                     {
                         listaClientes.Add(nuevoCliente);
                         Console.WriteLine($"[Servidor] Clientes conectados: {listaClientes.Count}");
+                    }
+                    // Recibimos el vehiculo enviado desde el cliente   
+                    Vehiculo vehiculoRecibido = NetworkStreamClass.LeerDatosVehiculoNS(stream);
+                    Console.WriteLine($"[Servidor] Vehiculo recibido: ID {vehiculoRecibido.Id}, Dirección {vehiculoRecibido.Direccion}");
+                    // Añadimos a la carretera
+                     lock (carretera)
+                    {
+                        carretera.AñadirVehiculo(vehiculoRecibido);
+                        Console.WriteLine($"[Servidor] Vehiculos en carretera: {carretera.NumVehiculosEnCarrera}");
                     }
                 }
                 else

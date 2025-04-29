@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Pau\\Desktop\\ICB0009-UF3-PR01-paugallardogiralt\\Ejercicio1\\Vehiculo\\Vehiculo.csproj",
+      "projectUniqueName": "C:\\Users\\Pau\\Desktop\\ICB0009-UF3-PR01-paugallardogiralt\\Ejercicio2\\Vehiculo\\Vehiculo.csproj",
       "projectName": "Vehiculo",
-      "projectPath": "C:\\Users\\Pau\\Desktop\\ICB0009-UF3-PR01-paugallardogiralt\\Ejercicio1\\Vehiculo\\Vehiculo.csproj",
+      "projectPath": "C:\\Users\\Pau\\Desktop\\ICB0009-UF3-PR01-paugallardogiralt\\Ejercicio2\\Vehiculo\\Vehiculo.csproj",
       "packagesPath": "C:\\Users\\Pau\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Pau\\Desktop\\ICB0009-UF3-PR01-paugallardogiralt\\Ejercicio1\\Vehiculo\\obj\\",
+      "outputPath": "C:\\Users\\Pau\\Desktop\\ICB0009-UF3-PR01-paugallardogiralt\\Ejercicio2\\Vehiculo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Pau\\AppData\\Roaming\\NuGet\\NuGet.Config"
