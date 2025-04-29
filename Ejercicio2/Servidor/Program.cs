@@ -82,6 +82,9 @@ namespace Servidor
                 if (respuesta == id.ToString())
                 {
                     Console.WriteLine($"[Servidor] Handshake exitoso con cliente ID {id}.");
+                    // Enviamos la dirección también al cliente
+                    NetworkStreamClass.EscribirMensajeNetworkStream(stream, direccion);
+                    Console.WriteLine($"[Servidor] Dirección {direccion} enviada al cliente.");
                     // Si el handshake es existoso creamos un nuevo objeto cliente y lo añadimos a la lista 
                     Cliente nuevoCliente = new Cliente(id, stream);
 

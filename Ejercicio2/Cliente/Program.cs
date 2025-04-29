@@ -34,12 +34,19 @@ namespace Client
                 // Enviamos de vuelta el mismo ID como confirmación
                 NetworkStreamClass.EscribirMensajeNetworkStream(stream, idRecibido);
                 Console.WriteLine("[Cliente] ID reenviado al servidor como confirmación.");
+                // Esperamos recibir la dirección desde el servidor
+                string direccionRecibida = NetworkStreamClass.LeerMensajeNetworkStream(stream);
+                Console.WriteLine($"[Cliente] Dirección recibida del servidor: {direccionRecibida}");
                 // Creamos y enviarmos el vehiculo al servidor
                 Vehiculo miVehiculo = new Vehiculo();
                 miVehiculo.Id = int.Parse(idRecibido);
+                miVehiculo.Direccion = direccionRecibida;
                 Console.WriteLine($"[Cliente] Vehiculo creado. ID: {miVehiculo.Id}, Dirección: {miVehiculo.Direccion}");
                 NetworkStreamClass.EscribirDatosVehiculoNS(stream, miVehiculo);
                 Console.WriteLine("[Cliente] Vehiculo enviado al servidor.");
+                // Creamos un hilo para llamar al método EscucharCarretera
+                Thread hiloRecepcion = new Thread(() => EscucharCarretera(stream));
+                hiloRecepcion.Start();
                 // Simulamos el avance del vehiculo
                 while (miVehiculo.Pos < 100)
                 {
@@ -51,6 +58,11 @@ namespace Client
                     Console.WriteLine($"[Cliente] Vehiculo {miVehiculo.Id} actualizado enviado al servidor.");
                 }
                 Console.WriteLine($"[Cliente] Vehiculo {miVehiculo.Id} ha llegado al final de la carretera.");
+                miVehiculo.Acabado = true;
+                NetworkStreamClass.EscribirDatosVehiculoNS(stream, miVehiculo);
+                Console.WriteLine($"[Cliente] Vehiculo {miVehiculo.Id} finalizado enviado al servidor.");
+                // Esperamos medio segundo para asegurar que la información llega al servidor
+                Thread.Sleep(500);
             }
             catch (Exception ex)
             {
@@ -58,6 +70,32 @@ namespace Client
             }
 
             Console.ReadLine(); // Mantenemos el cliente abierto
+        }
+        static void EscucharCarretera(NetworkStream stream)
+        {
+            while (true)
+            {
+                try
+                {
+                    Carretera carreteraRecibida = NetworkStreamClass.LeerDatosCarreteraNS(stream);
+
+                    Console.Clear(); // Vamos limpiando la pantalla para no acumular información
+                    Console.WriteLine("[Cliente] Estado de la carretera actualizado:");
+
+                    foreach (Vehiculo v in carreteraRecibida.VehiculosEnCarretera)
+                    {
+                        string estado = v.Acabado ? "🚩 Finalizado" : "⏩ Circulando";
+                        Console.WriteLine($"[Cliente] Vehiculo {v.Id} - {v.Pos} km - Dirección {v.Direccion} - {estado}");
+                    }
+
+                    Console.WriteLine();
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"[Cliente] Error al recibir datos del servidor: {ex.Message}");
+                    break; 
+                }
+            }
         }
     }
 }
